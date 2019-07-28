@@ -14,7 +14,6 @@
  
 
 ## 💻 Text Parser
-  서버에서 계속 주시해야 할 주요 항목들을 1초 주기로 모니터링하는 예제
 
   ![capture](https://github.com/kbm0996/-Utility-CParser/blob/master/figure/text.png)
   
