@@ -22,8 +22,8 @@
 	int iVersion, iServerID, iServerBindPort, iWorkerThread, iMaxUser;
 	char szServerBindIP[256];
 
-	CParser g_Parser("test.ini");
-	if (LoadFile("Config.ini"))
+	CParser g_Parser;
+	if (g_Parser.LoadFile("Config.ini"))
 	{
 		if (g_Parser.SearchField("TEST_ZONE"))
 		{
