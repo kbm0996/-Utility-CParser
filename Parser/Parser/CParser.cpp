@@ -52,7 +52,7 @@ bool mylib::CParser::SearchField(const char * szFieldName)
 	int	iLength;
 
 	_iCurPos = _iFieldBeginPos = 0;
-	_iFileSize = _iFieldEndPos;
+	_iFieldEndPos = _iFileSize;
 
 	// 필드 이름 미입력시
 	if (szFieldName == nullptr)
